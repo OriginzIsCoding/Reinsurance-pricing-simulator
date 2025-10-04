@@ -58,6 +58,14 @@ print(f"Maximum Simulated Loss: £{maxloss:,.2f}")
 
 
 
+
+
+
+
+
+
+#footnotes
+
 #In my model I priced reinsurance as the expected payout, which is the actuarial pure premium. 
 #But in reality premiums are also shaped by the reinsurance cycle soft markets push prices downand hard markets push them up  
 #Plus loadings for risk appetite, expenses, and profit margins are not taken into account. So my premium estimate is lower than what reinsurers would actually charge.
@@ -76,9 +84,4 @@ print(f"Maximum Simulated Loss: £{maxloss:,.2f}")
 #capital management - it tells you how much money to keep in reserves to avoid insolvency
 #what is the worst case scenrio we must survive.
 #how likely is a catastrophic year.
-
-#improvements
-#improvements could be made in the premium setting as we only include the expected value, and did not take into account others things such as risk appetite, hard or soft markets and other expenses.
-#Also this model assumes total independance which isnt the case when there is a massive peril which causes claims to skyrocket as a natural disaster hitting a certain area.
-
 
